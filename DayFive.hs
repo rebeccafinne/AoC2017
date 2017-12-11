@@ -13,6 +13,7 @@ main = puzzle3 "InputDayFive.txt"
 
 
 
+
 puzzle1 :: FilePath -> IO Int
 puzzle1 file = do
   input <- readFile file
